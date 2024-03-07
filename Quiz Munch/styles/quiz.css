@@ -1,4 +1,4 @@
-/* Quiz Progress */
+/* -----------------------Quiz Progress ---------------------- */
 
 .Quiz-Progress {
   width: 250px;
@@ -13,9 +13,9 @@
   text-align: left;
   color: #ffffff;
 }
-    
-.QuizProgressheader {
-  width: 160px;
+
+.containerHeader {
+  width: 306px;
   height: 30px;
   flex-grow: 0;
   border-top-right-radius: 10px 10px;
@@ -23,9 +23,8 @@
   padding: 28px 935px 27px 24px;
   background-image: linear-gradient(to right, #010c86 2%, #0007b0 52%, #7175e2 100%);
 }
-           
- .QuizProgresshraderColour
- {
+
+.QuizProgresshraderColour {
   width: 600px;
   height: 515px;
   display: flex;
@@ -36,11 +35,13 @@
   padding: 0;
 }
 
-.ContainerShadow1 {
-  width: 1120px;
+.Container-Quizzes-progress {
+  width: 1265px;
   height: 515px;
+  margin-top: 39px;
+  margin-bottom: 20px;
   flex-grow: 0;
-  margin-left: 12%;
+  margin-left: 8%;
   padding: 0 0 30px;
   border-radius: 10px;
   box-shadow: 0 -4px 40px 0 rgba(127, 14, 14, 0.05), 0 4px 40px 0 rgba(0, 0, 0, 0.05);
@@ -71,7 +72,7 @@
   border-top-left-radius: 10px 10px;
   padding: 22px 125px 21px 36px;
   background-image: linear-gradient(to right, #010c86 2%, #0007b0 52%, #7175e2 100%);
-  
+
 }
 
 .Upcoming-Quizzes-Due {
@@ -149,8 +150,7 @@
   background-color: #ffffff;
 }
 
-.QuizProgresshraderColour
- {
+.QuizProgresshraderColour {
   width: 0px;
   height: 515px;
   display: flex;
@@ -258,12 +258,346 @@
   padding: 5px;
   border-radius: 5px;
   background-color: #ffffff;
-}                                       
+}
 
 
 
 
-/* Header CSS */
+
+
+/* --------------My Couses ----------------------------- */
+
+.Courses-All-display-container {
+  width: 288px;
+  height: 442px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+  padding: 0;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 35px;
+  margin-bottom: 35px;
+  border-radius: 10px;
+  border: solid 0.5px #00d1ff;
+  background-color: #faf9f9;
+}
+
+.layout {
+  width: 1366px;
+  height: 768px;
+
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.containerCourses {
+  width: 1265px;
+  height: 1255px;
+  flex-grow: 0;
+  margin-left: 8%;
+  margin-bottom: 35px;
+  padding: 0 0 30px;
+  border-radius: 10px;
+  box-shadow: 0 -4px 40px 0 rgba(127, 14, 14, 0.05), 0 4px 40px 0 rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+
+}
+
+.imagecoursebox {
+  width: 140px;
+  height: 93px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 65px;
+  background-color: #fefefe;
+}
+
+.subjectImage {
+  width: 148px;
+  height: 83px;
+  flex-grow: 0;
+}
+
+.courses-year {
+  width: 252.5px;
+  height: 92px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 0;
+}
+
+span {
+  width: 58px;
+  height: 18px;
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.courses-name {
+  width: 270.3px;
+  height: 36px;
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0007b0;
+}
+
+.Instructor-name {
+  width: 270.3px;
+  height: 18px;
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.Total-Quizes-text-container {
+  width: 253px;
+  height: 63px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 26px;
+  padding: 0;
+}
+
+.Total-Quizes {
+  width: 130px;
+  height: 19px;
+  margin-top: 1px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #000;
+}
+
+.Total-Quizes .text-style-1 {
+  font-weight: bold;
+  color: #000;
+}
+
+.Courses-Upcoming-Quiz {
+  width: 253px;
+  height: 18px;
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #000;
+}
+
+.Courses-Upcoming-Quiz .text-style-1 {
+  font-weight: normal;
+  color: #000;
+
+}
+
+.courses-Completed-text {
+  width: 133px;
+  height: 18px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #000;
+}
+
+.courses-Completed-text .text-style-1 {
+  font-weight: 300;
+  color: #000;
+
+}
+
+.courses-Completed-text .text-style-2 {
+  font-weight: 600;
+  color: #000;
+
+}
+
+.courses-check-details-buttom {
+  width: 242px;
+  height: 0px;
+  margin-top: 17px;
+  margin-left: -17.5px;
+  align-self: stretch;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 23px;
+  background-color: #00d1ff;
+  border-bottom-right-radius: 10px 10px;
+  border-bottom-left-radius: 10px 10px;
+
+}
+
+.Check-Details {
+  width: 108px;
+  height: 18px;
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.75px;
+  text-align: left;
+  color: #ffffff;
+}
+
+
+
+.Courses-complete-bar-1 {
+  width: 82px;
+  height: 10px;
+  margin-top: 7px;
+  padding: 0 165.5px 0 0.5px;
+  border-radius: 50px;
+  background-color: #d9d9d9;
+}
+
+.Courses-complete-bar-final {
+  width: 253px;
+  flex-grow: 1;
+  padding: 0 120px 21px 0;
+}
+
+.Courses-complete-bar-2 {
+  width: 86px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: #ffa800;
+}
+
+
+
+.courses-current-sem-container {
+  width: 288px;
+  height: 40px;
+  margin-top: 35px;
+  margin-left: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 0.5px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+}
+
+.Current-Semester {
+  width: 201px;
+  height: 18px;
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+
+
+.course-search-container {
+  width: 388px;
+  height: 40px;
+  margin-top: -62px;
+  margin-left: 435px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 0.5px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+}
+
+.Search-Course {
+  width: 167px;
+  height: 18px;
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------Header CSS--------------------------------------------------- */
 
 .headerConatiner {
   width: 1440px;
@@ -272,12 +606,14 @@
   box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.1);
   background-color: rgba(255, 255, 255, 0.01);
 }
+
 .logo {
   width: 172px;
   height: 39px;
   margin: 16px 89px 4px 0;
   /* background-color: #0007b0; */
 }
+
 .logo_text {
   width: 172px;
   height: 29px;
@@ -292,6 +628,7 @@
   text-align: left;
   color: #0007b0;
 }
+
 .headerhome {
   width: 608px;
   height: 45px;
@@ -333,6 +670,7 @@
   text-align: left;
   color: #4a5568;
 }
+
 .notificationtext {
   width: 51px;
   height: 25px;
@@ -349,6 +687,7 @@
   /* margin: 0 0 0px 0; */
   margin-left: -75px;
 }
+
 .Rectangle {
   width: 71px;
   height: 11px;
@@ -359,16 +698,17 @@
 }
 
 .Bell {
-width: 25px;
-height: 25px;
-background: no-repeat center/80% url(/Image/Frame\ 34.png);
-flex: none;
-order: 0;
-flex-grow: 0;
-/* margin: 30px; */
+  width: 25px;
+  height: 25px;
+  background: no-repeat center/80% url(/Image/Frame\ 34.png);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* margin: 30px; */
   /* margin: 54px 340px 1px;  */
 }
-.Frame-35 {
+
+.header-profile-container {
   width: 86px;
   height: 70px;
   display: flex;
@@ -376,11 +716,12 @@ flex-grow: 0;
   justify-content: flex-start;
   align-items: center;
   gap: 1px;
-  margin: -30px  0px 23px;
+  margin: -30px 0px 23px;
   margin-left: 4cqmax;
   padding: 5px 0;
   background-color: rgba(0, 7, 176, 0.01);
 }
+
 .RB {
   width: 26px;
   height: 25px;
@@ -395,6 +736,7 @@ flex-grow: 0;
   text-align: left;
   color: #000;
 }
+
 .arrow {
   border: solid black;
   border-width: 0 3px 3px 0;
@@ -402,14 +744,14 @@ flex-grow: 0;
   padding: 3px;
   margin-left: 35px;
   background-color: rgba(0, 7, 176, 0.01);
-
 }
+
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
 
-.Frame-34 {
+.header-arrow {
   width: 80px;
   height: 83px;
   padding: 25px 0 0;
@@ -418,13 +760,19 @@ flex-grow: 0;
 
 
 
-/* Footer CSS */
+
+
+
+
+
+/* ------------------------------------------Footer CSS------------------------------------------------------------------- */
 .footer {
   width: 42rem;
   height: 70px;
   padding: 36px 419px 54px 422px;
   background-image: linear-gradient(to right, #010b88 0%, #0007b0 48%, #6469dc 100%);
 }
+
 .All-Rights-Reserved-UPES-Quiz-Portal {
   width: 439px;
   height: 18px;
@@ -440,6 +788,7 @@ flex-grow: 0;
   text-align: left;
   color: #fff;
 }
+
 .SocialMedia {
   width: 418px;
   height: 70px;
@@ -448,38 +797,43 @@ flex-grow: 0;
   justify-content: center;
   align-items: center;
   gap: 46px;
-  margin:  12px 0 9px;
+  margin: 12px 0 9px;
   margin-left: 20%;
   padding: 0;
   /* background-color:rgb(1, 136, 255); */
 }
+
 .Instagram {
   width: 50px;
   height: 50px;
   /* flex-grow: 0; */
-  
+
 
 }
+
 .TwitterX {
   width: 50px;
   height: 50px;
   flex-grow: 0;
 
 }
+
 .LinkedIn {
   width: 50px;
   height: 50px;
   flex-grow: 0;
 
 }
+
 .Facebook {
   width: 50px;
   height: 50px;
   flex-grow: 0;
 
 }
-.imgbackgroundClr{
-    width: 60px;
-    /* mix-blend-mode: multiply;
+
+.imgbackgroundClr {
+  width: 60px;
+  /* mix-blend-mode: multiply;
     /* filter: drop-shadow(16px 16px 20px red) invert(75%); */
 }
